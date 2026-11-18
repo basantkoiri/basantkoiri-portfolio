@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basant Koiri — Full-Stack MERN &amp; Java DSA Engineer</title>
+    <meta
+      name="description"
+      content="Engineering portfolio of Basant Koiri (basantkoiri.com.np) — Full-Stack MERN Developer, Java Data Structures & Algorithms practitioner, and BIT scholar at Bhairahawa Multiple Campus (Tribhuvan University IOST)."
+    />
+    <meta name="author" content="Basant Koiri" />
+    <link rel="canonical" href="https://basantkoiri.com.np/" />
+
+    <!-- OpenGraph & Social Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Basant Koiri — Full-Stack MERN & Java DSA Engineer" />
+    <meta
+      property="og:description"
+      content="Interactive algorithmic portfolio showcasing 60+ mastered modules across MERN Stack Web Development and Java Data Structures & Algorithms."
+    />
+    <meta property="og:url" content="https://basantkoiri.com.np/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Basant Koiri — Full-Stack MERN & Java DSA Engineer" />
+
+    <!-- FOUC-Free Blocking Theme Initialization -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('bk-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored === 'light' || stored === 'dark' ? stored : prefersDark ? 'dark' : 'light';
+          document.documentElement.classList.toggle('dark', theme === 'dark');
+          document.documentElement.dataset.theme = theme;
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+          document.documentElement.dataset.theme = 'dark';
+        }
+      })();
+    </script>
+
+    <!-- Structured Data: JSON-LD Person & Engineering Credentials -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Basant Koiri",
+        "url": "https://basantkoiri.com.np",
+        "email": "mailto:basantkoiri5@gmail.com",
+        "jobTitle": "Full-Stack Software Engineer & Java DSA Developer",
+        "affiliation": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Bhairahawa Multiple Campus, Tribhuvan University (IOST)"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Apna College — Sigma Batch (MERN Stack & Java DSA)"
+          }
+        ],
+        "knowsAbout": [
+          "HTML5",
+          "CSS3",
+          "Tailwind CSS",
+          "Bootstrap",
+          "JavaScript ES6+",
+          "TypeScript",
+          "React",
+          "Node.js",
+          "Express.js",
+          "MVC Architecture",
+          "SQL",
+          "MongoDB",
+          "Mongoose",
+          "Java",
+          "Data Structures and Algorithms",
+          "Dynamic Programming",
+          "Graph Algorithms",
+          "Segment Trees",
+          "Tries"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-[var(--bg-canvas)] text-[var(--text-primary)] antialiased selection:bg-[var(--accent-cyan)]/25 selection:text-[var(--text-primary)]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
